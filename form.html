@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body {
+  background-image: url("wallpaperflare.com_wallpaper.jpg");
+  display: grid;
+  place-items: center;
+  margin-top: 300px;
+}
+.container {
+  border: 2px solid rgb(118, 66, 114);
+  width: 300px;
+  height: 400px;
+  font-family: "Manrope", sans-serif;
+  font-family: "Phudu", cursive;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 30px 80px 20px;
+  margin-left: 500px;
+  margin-top: 200px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  backdrop-filter: brightness(30%);
+  box-shadow: 20px 30px 50px;
+  color: white;
+}
+a{
+    text-decoration: none;
+    color:#fff ;
+    transition:.5s ease all;
+
+}
+
+        </style>
+    </head>
+    <body>
+
+        <!-- <video src="FORM_PAGE.mp4" autoplay muted loop></video> -->
+        <form action>
+            <div class="container">
+                <center>
+
+                    <p>
+
+                        first name
+                        <input type="text" class="fname">
+                    </p>
+                    <p>
+                        last name
+                        <input type="text" class="lname"><br>
+                    </p>
+                    <p>
+                        Address:
+                        <textarea name="r" cols="10" rows="1"></textarea>
+                    </p>
+                    <p>
+                        Email:
+                        <input type="email" placeholder="@gmail" class="email">
+
+                    </p>
+                    <p>
+                        Do you want a piot with your plane? :
+                        <input type="radio" name="r" required>Yes
+                        <input type="radio" name="r">No
+                    </p>
+                    <p>
+                        what will be the diffrence between the seats
+                        <select name="r" id>
+                            <option value="12">12 inches</option>
+                            <option value="20">20 inches</option>
+                            <option value="30">30 inches</option>
+                        </select>
+                    </p>
+                    <p>
+                        Submit:
+                        <input type="submit" class="submit">
+
+                    </p>
+                    <script src="form_1.js"></script>
+                </center>
+            </div>
+
+        </form>
+
+    </body>
+</html>
